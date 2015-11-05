@@ -1,0 +1,190 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.caption_text{
+		display: none;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.top_wrapper .top_text h1 {
+		padding: 7px 20px;
+		border-bottom: 2px solid #FFF;
+		font-size: 4.1em;
+	}
+	.top_wrapper .top_text p {
+    	font-size: 24px;
+	}
+	.top_wrapper .top_text img {
+    	width: 50px;
+	}
+	.contacts_icon {
+    	font-size: 35px;
+	}
+	.about_list  {
+		line-height: 1.5;
+		letter-spacing: .5px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.top_wrapper .top_text h1 {
+	    padding: 3px 0px;
+	    border-bottom: 1px solid #FFF;
+	    font-size: 2.1em;
+	}
+	.top_wrapper .top_text p {
+    	font-size: 18px;
+	}
+	.top_wrapper .top_text img {
+    	width: 40px;
+	}
+	.contacts_icon {
+    	font-size: 20px;
+	}
+	.google_calendar_large{
+		display: none;
+	}
+	..google_calendar_small{
+		display: none;
+	}
+	.google_calendar_extra_small{
+		display: none;
+	}
+	.google_calendar_custom{
+		display: inline-block;
+	}
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	.portfolio_section h2 {
+    	padding-top: 100px;
+	}
+	
+	.portfolio_section h2, .calendar_section h2 {
+	    padding-top: 50px;
+	}
+	 .padding_bottom{
+		padding-bottom: 50px;
+	}
+	.google_calendar_large{
+		display: none;
+	}
+	.google_calendar_small{
+		display: none;
+	}
+	.google_calendar_extra_small{
+		display: none;
+	}
+	.google_calendar_custom{
+		display: inline-block;
+	}
+	.google_calendar_medium{
+		display: none;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	.google_calendar_large{
+		display: none;
+	}
+	.google_calendar_small{
+		display: none;
+	}
+	.google_calendar_extra_small{
+		display: inline-block;
+	}
+	.google_calendar_custom{
+		display: none;
+	}
+	.google_calendar_medium{
+		display: none;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 3px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #000;
+    }
+	.google_calendar_large{
+		display: none;
+	}
+	.google_calendar_extra_small{
+		display: none;
+	}
+	.google_calendar_small{
+		display: inline-block;
+	}
+	.google_calendar_custom{
+		display: none;
+	}
+	.google_calendar_medium{
+		display: none;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.google_calendar_large{
+		display: none;
+	}
+	.google_calendar_extra_small{
+		display: none;
+	}
+	.google_calendar_small{
+		display: none;
+	}
+	.google_calendar_custom{
+		display: none;
+	}
+	.google_calendar_medium{
+		display: inline-block;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+	.portfolio_section h2, .calendar_section h2 {
+	    padding-top: 100px;
+		}
+	.portfolio_section, .calendar_section{
+		//height: 100%;
+	}
+	.padding_bottom{
+		padding-bottom: 100px;
+	}
+}
